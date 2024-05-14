@@ -71,7 +71,7 @@ $buttonheight: 50px;
         overflow-x: hidden; 
         padding-top: 60px; 
         transition: 0.5s;
-        
+
 
         
     }
@@ -202,8 +202,8 @@ h4{
 
 
 .box{
-    width: 350px;
-    height: 40vh;
+    width: 400px;
+    height: 35vh;
     background-image: url(img/portfolio-1.jpg);
     background-size: cover;
     display: flex;
@@ -220,8 +220,8 @@ h4{
 }
 
 .box-2{
-    width: 350px;
-    height: 40vh;
+    width: 400px;
+    height: 35vh;
     background-image: url(img/portfolio-2.jpg);
     background-size: cover;
     display: flex;
@@ -238,8 +238,8 @@ h4{
 }
 
 .box-3{
-    width: 350px;
-    height: 40vh;
+    width: 400px;
+    height: 35vh;
     background-image: url(img/portfolio-3.jpg);
     background-size: cover;
     display: flex;
@@ -256,8 +256,8 @@ h4{
 }
 
 .box-4{
-    width: 350px;
-    height: 40vh;
+    width: 400px;
+    height: 35vh;
     background-image: url(img/portfolio-4.jpg);
     background-size: cover;
     display: flex;
@@ -283,8 +283,8 @@ h4{
 }
 
 .images{
-    width: 900px;
-    height: 60vh;
+    width: 1000px;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -324,6 +324,7 @@ h4{
 .buttons{
     display: flex;
     flex-direction: row;
+    margin-bottom:20px ;
 
 }
 
@@ -439,15 +440,15 @@ i{
 
         background-position: bottom;
         background-size: cover;
-        height: 50vh;
+        height: 65vh;
 
         .men{
             left: 85%;
         }
         
         .banner{
-            left: 10%;
-            top: 26%;
+            left: 11%;
+            top: 30%;
         }
             
 
@@ -459,6 +460,11 @@ i{
         p{
             font-size: 16px;
         }
+
+        a{
+            margin-top: 25px;
+        }
+
     }
 
 
@@ -467,11 +473,13 @@ i{
             font-size: 26px;
             text-align: center;
             margin-right: 20px;
+            line-height: 1.2;
         }
 
         p{
             text-align: center;
             width: 300px;
+            margin-top: 10px;
         }
         a{
             margin-bottom: 20px;
@@ -532,7 +540,10 @@ i{
 
     .section4{
         background-position: center;
-        height: 50vh;
+        height: 65vh;
+        a{
+            margin-top: 30px;
+        }
     }
 
     .port{

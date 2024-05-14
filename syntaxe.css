@@ -169,8 +169,8 @@ h4 {
 }
 
 .box {
-  width: 350px;
-  height: 40vh;
+  width: 400px;
+  height: 35vh;
   background-image: url(img/portfolio-1.jpg);
   background-size: cover;
   display: flex;
@@ -186,8 +186,8 @@ h4 {
 }
 
 .box-2 {
-  width: 350px;
-  height: 40vh;
+  width: 400px;
+  height: 35vh;
   background-image: url(img/portfolio-2.jpg);
   background-size: cover;
   display: flex;
@@ -203,8 +203,8 @@ h4 {
 }
 
 .box-3 {
-  width: 350px;
-  height: 40vh;
+  width: 400px;
+  height: 35vh;
   background-image: url(img/portfolio-3.jpg);
   background-size: cover;
   display: flex;
@@ -220,8 +220,8 @@ h4 {
 }
 
 .box-4 {
-  width: 350px;
-  height: 40vh;
+  width: 400px;
+  height: 35vh;
   background-image: url(img/portfolio-4.jpg);
   background-size: cover;
   display: flex;
@@ -246,8 +246,8 @@ h4 {
 }
 
 .images {
-  width: 900px;
-  height: 60vh;
+  width: 1000px;
+  height: 70vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -287,6 +287,7 @@ h4 {
 .buttons {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .fst {
@@ -391,14 +392,14 @@ i {
   .top {
     background-position: bottom;
     background-size: cover;
-    height: 50vh;
+    height: 65vh;
   }
   .top .men {
     left: 85%;
   }
   .top .banner {
-    left: 10%;
-    top: 26%;
+    left: 11%;
+    top: 30%;
   }
   .top h1 {
     text-align: center;
@@ -407,14 +408,19 @@ i {
   .top p {
     font-size: 16px;
   }
+  .top a {
+    margin-top: 25px;
+  }
   .about h3 {
     font-size: 26px;
     text-align: center;
     margin-right: 20px;
+    line-height: 1.2;
   }
   .about p {
     text-align: center;
     width: 300px;
+    margin-top: 10px;
   }
   .about a {
     margin-bottom: 20px;
@@ -458,7 +464,10 @@ i {
   }
   .section4 {
     background-position: center;
-    height: 50vh;
+    height: 65vh;
+  }
+  .section4 a {
+    margin-top: 30px;
   }
   .port .pp {
     margin-left: 0;
@@ -735,4 +744,4 @@ i {
        object-fit: cover;
     height: 40vh;
   }
-}/*# sourceMappingURL=syntax.css.map */
+}/*# sourceMappingURL=syntaxe.css.map */
